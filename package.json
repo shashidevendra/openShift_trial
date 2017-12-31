@@ -1,0 +1,22 @@
+{
+    "name": "vi",
+    "version": "0.0.1",
+    "description": "vi",
+    "main": "index.js", 
+    "dependencies": {
+    },
+    "devDependencies": {
+        "nodemon": "*"
+    },
+    "engine": {
+        "node": "*",
+        "npm": "*"
+    },
+    "scripts": {
+        "dev": "nodemon --ignore node_modules/ index.js",
+        "start": "node index.js" 
+    },
+    "keywords": [
+    ],
+    "license": "",
+}
